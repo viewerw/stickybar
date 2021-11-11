@@ -1,0 +1,31 @@
+.sticky-bar {
+  &_tab-bar {
+    background-color: #fff;
+    width: 100%;
+    overflow-x: scroll;
+    position: sticky;
+    top: 0;
+    height: 30px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    z-index: 1;
+    box-sizing: border-box;
+    &-item {
+      height: 24px;
+      border-radius: 12.8px;
+      background-color: #faf3e8;
+      padding: 0 8px;
+      line-height: 24px;
+      font-size: 12px;
+      color: #5f3413;
+      text-align: center;
+      margin-right: 6px;
+      flex-shrink: 0;
+      &.active {
+        background-color: #ad8650;
+        color: #fff;
+      }
+    }
+  }
+}
