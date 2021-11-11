@@ -50,6 +50,10 @@ export default () => {
 };
 ```
 
+## demo
+
+https://viewerw.github.io/stickybar-docs/
+
 ## StickyBar
 
 | 属性名          | 描述                 | 类型      | 默认值 |
